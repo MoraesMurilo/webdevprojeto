@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+#header, #about, #skills, footer {
+    padding: 20px;
+}
+
+
+h1 {
+    color: #FFD700; 
+}
+
+h2 {
+    color: #8B0000; 
+}
+
+/* Estilização específica para #header, mantendo a cor de texto original */
+#header {
+    background: #333;
+    color: #ffff00; 
+    text-align: center;
+}
+
+
+#about, #skills, footer {
+    background: #ffffff;
+    margin: 20px;
+    border-radius: 8px;
+}
+
+/* Estilos para parágrafos */
+#about p {
+    color: #000000; 
+}
+
+p {
+    color: #c0c0c0; 
+}
+
+/* Unificação dos estilos de lista e itens da lista*/
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    background-color: #e7e7e7;
+    margin-bottom: 8px;
+    padding: 12px;
+    border-radius: 4px;
+    color: #2f4f4f; 
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+}
+
+#contact li:hover {
+    background-color: #191970;
+}
